@@ -83,3 +83,68 @@ p {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+
+@media (orientation: portrait) and (hover: none) and (pointer: coarse) {
+  body {
+    width: 100%;
+    overflow: hidden;
+  }
+  body::after {
+    content: 'This is desktop version of modal window';
+    text-align: center;
+    font-size: 60px;
+    color: rgb(2, 78, 160);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    width: 300px;
+    padding-top: 90px;
+    padding-right: 35px;
+  }
+  .show-modal {
+    display: none;
+  }
+  h1 {
+    display: none;
+  }
+  p {
+    display: none;
+  }
+  .modal {
+    display: none;
+  }
+}
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+  body {
+    width: 100%;
+    overflow: hidden;
+  }
+  body::after {
+    content: 'This is desktop version of modal window';
+    text-align: center;
+    font-size: 49px;
+    color: rgb(2, 78, 160);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    width: 300px;
+    padding-top: 60px;
+    padding-right: 35px;
+  }
+  .show-modal {
+    display: none;
+  }
+  h1 {
+    display: none;
+  }
+  p {
+    display: none;
+  }
+  .modal {
+    display: none;
+  }
+}
