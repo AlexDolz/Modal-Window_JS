@@ -87,7 +87,7 @@ p {
 @media (any-pointer: coarse) and (orientation: portrait) {
   body {
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   body::after {
     content: 'This is desktop version of modal window';
@@ -119,7 +119,7 @@ p {
 @media (any-pointer: coarse) and (orientation: landscape) {
   body {
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   body::after {
     content: 'This is desktop version of modal window';
