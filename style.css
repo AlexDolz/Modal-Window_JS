@@ -92,7 +92,7 @@ p {
   body::after {
     content: 'This is desktop version of modal window';
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(2, 78, 160);
     z-index: 10;
     display: flex;
@@ -100,8 +100,8 @@ p {
     align-items: center;
     font-family: 'Anton', sans-serif;
     width: 300px;
-    padding-top: 90px;
-    padding-right: 35px;
+    padding-top: 50px;
+    padding-right: 13px;
   }
   .show-modal {
     display: none;
